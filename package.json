@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/Boyceman/typescript-demo#readme",
   "devDependencies": {
+    "browserify": "^13.1.0",
     "gulp": "^3.9.1",
     "gulp-typescript": "^3.0.2",
-    "typescript": "^2.0.3"
+    "tsify": "^2.0.2",
+    "typescript": "^2.0.3",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
