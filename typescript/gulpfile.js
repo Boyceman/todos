@@ -21,5 +21,5 @@ gulp.task('default',function(){
     .plugin(tsify)
     .bundle()
     .pipe(sources('bundle.js'))
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('dist/js'));
 });

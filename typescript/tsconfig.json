@@ -3,8 +3,8 @@
     'src/main.ts'
     'src/ts/greet.ts'
   ],
-  'compilerOptions':[
+  'compilerOptions':{
     'noImplicitAny':true,
     'target':'es5'
-  ]
+  }
 }
