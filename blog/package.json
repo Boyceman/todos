@@ -1,0 +1,30 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "boyce ɭ�����Ķ�����",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "boycelau",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.0.0-alpha.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2015-node5": "^1.2.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "config-lite": "^1.5.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^1.3.2",
+    "koa-body": "^2.0.0",
+    "koa-ejs": "^3.0.0",
+    "koa-logger": "^1.3.0",
+    "koa-router": "^7.0.1",
+    "koa-session": "^3.4.0",
+    "koa-static": "^2.0.0"
+  }
+}
