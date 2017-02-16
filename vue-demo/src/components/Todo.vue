@@ -6,7 +6,7 @@
         <span> {{ todo.text }} </span>
         <button v-on:click="removeTodo(index)">删除</button>
       </li>
-    </ol> 
+    </ol>
   </div>
 </template>
 
@@ -21,10 +21,10 @@
     },
     methods: {
       addTodo: function(){
-        console.log(this)
-        let text = this.newTodo.trim()
+        console.log(this);
+        let text = this.newTodo.trim();
         if (text) {
-          this.todos.push({ text: text })
+          this.todos.push({ text: text });
           this.newTodo = ''
         }
       },
